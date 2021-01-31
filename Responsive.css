@@ -8,11 +8,40 @@
     .header-left {
         width: 9%;
     }
+
+    .container {
+        width: 100%;
+    }
 }
 
 
 
 @media all and (max-width: 320px) {
+
+    .menu-buttons {
+        display: none;
+    }
+
+    nav select {
+        display: inline-block;
+    }
+
+    .info-items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .copyright-items {
+        flex-direction: column;
+    }
+
+    .slider-items {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
     .header-right {
         width: 100%;
     }
@@ -34,5 +63,10 @@
     }
     a{
         margin-top:5px;
+    }
+
+
+    .container {
+        width: 100%;
     }
 }
