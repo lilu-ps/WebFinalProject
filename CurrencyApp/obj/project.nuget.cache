@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IBVaVrpLjq101j5qnfiXoh0CCJOkWakkxdIuTsO+YKFXS2oNUONkDRxZvg1NxLHUX+BC5WJ9BiuxXRJ8YiKXCw==",
+  "dgSpecHash": "+HH1CPCufTHpCZ9vI4eKUcaJmYJbxMh6s02RiYlAlrxYIt3ASzIa7vuIbKBG19Zh3qTJIc6YSHCJdtsWxwKokg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Documents\\GitHub\\tostring\\CurrencyApp\\CurrencyApp\\CurrencyApp.csproj",
+  "projectFilePath": "C:\\Users\\User\\Documents\\GitHub\\WebFinalProject\\CurrencyApp\\CurrencyApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

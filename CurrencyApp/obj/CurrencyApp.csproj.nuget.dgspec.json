@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Documents\\GitHub\\tostring\\CurrencyApp\\CurrencyApp\\CurrencyApp.csproj": {}
+    "C:\\Users\\User\\Documents\\GitHub\\WebFinalProject\\CurrencyApp\\CurrencyApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Documents\\GitHub\\tostring\\CurrencyApp\\CurrencyApp\\CurrencyApp.csproj": {
+    "C:\\Users\\User\\Documents\\GitHub\\WebFinalProject\\CurrencyApp\\CurrencyApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\tostring\\CurrencyApp\\CurrencyApp\\CurrencyApp.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\WebFinalProject\\CurrencyApp\\CurrencyApp.csproj",
         "projectName": "CurrencyApp",
-        "projectPath": "C:\\Users\\User\\Documents\\GitHub\\tostring\\CurrencyApp\\CurrencyApp\\CurrencyApp.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\GitHub\\WebFinalProject\\CurrencyApp\\CurrencyApp.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\GitHub\\tostring\\CurrencyApp\\CurrencyApp\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\GitHub\\WebFinalProject\\CurrencyApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

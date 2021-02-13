@@ -20,8 +20,8 @@ namespace CurrencyApp.Controllers
         }
 
 
-        [HttpGet]
-        public JsonResult getTattooStyles()
+        [HttpGet("api/Artist/getTattooArtists")]
+        public JsonResult getTattooArtists()
         {
             var result = _artisRep.getAllArtists().ToList();
             return Json(new { response = result });
