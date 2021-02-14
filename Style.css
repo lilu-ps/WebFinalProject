@@ -745,3 +745,7 @@ nav select {
         /*padding: 0 16px 16px;*/
         text-align: center;
     }
+
+#tatt .tattoo {
+    box-shadow: 1px 1px 2px #3bafbe, 0 0 15px #3bafbe, 0 0 5px #3bafbe;
+}
