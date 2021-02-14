@@ -135,10 +135,11 @@ footer {
     background-color: black;
 }
 
-.app-section{
+.app-section {
     background-color: none;
-    overflow:hidden;
-    z-index: -1;
+    overflow: hidden;
+    position: relative;
+    z-index: -100;
 }
 
 
@@ -487,7 +488,7 @@ nav select {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    padding: 0 16px 16px;
+    /*padding: 0 16px 16px;*/
     text-align: center;
 }
 
@@ -566,4 +567,5 @@ nav select {
     grid-column-gap: 20px;
     grid-row-gap: 40px;
     padding-top: 50px;
+    z-index: -50;
 }
