@@ -12,7 +12,7 @@ export default class extends Common {
         fetch('/WebFinalProject/database/Tattoos.json')
             .then(response => response.json())
             .then(tattooData => {
-                tatData = tattooData.Artists
+                tattooData = tattooData.Tattoos
                 console.log(tattooData);
                 var tattoos = document.getElementById("artist-tattoos");
                 tatData.forEach(e => {
