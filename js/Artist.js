@@ -21,7 +21,7 @@ export default class extends Common {
                     <div class="box">
                         <div class="details">
                             <div class="cover">
-                                <img src="https://cosmosmagazine.com/wp-content/uploads/2020/02/190827-tattoo_full-1440x813.jpg" alt="" />
+                                <img src="${e.cover}" alt="" />
                             </div>
                             <div class="image">
                                 <img src="${e.image}" alt="" />
