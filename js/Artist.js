@@ -29,8 +29,7 @@ export default class extends Common {
                             <div class="artist-info">
                                 <span itemprop="name" class="artist-name">${e.firstName} ${e.lastName}</span>
                                 <span itemprop="name" class="studio-name">${e.studio}</span>
-                                <a href="${u('/artists/2')}" data-link>#2 - How to build a GH Pages site</a>
-                                <button type="button" onclick=viewProfile('/WebFinalProject/artists/${e.id}')>View Profile</button>
+                                <a href="${u('/artists/2')}" data-link class="link-button">#2 - How to build a GH Pages site</a>
                             </div>
                         </div>
                     </div>
@@ -41,6 +40,7 @@ export default class extends Common {
     }
 
 
+                                //<button type="button" onclick=viewProfile('/WebFinalProject/artists/${e.id}') > View Profile</button >
 
     async getHtml() {
         console.log("ariiiiiiiiiiiiiiiii");
