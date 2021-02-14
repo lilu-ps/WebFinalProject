@@ -1,5 +1,5 @@
 ﻿import Common from './Common.js';
-import { u } from '../lib.js';
+import { u } from './lib.js';
 
 export default class extends Common {
     constructor(params) {
