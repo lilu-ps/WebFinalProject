@@ -14,7 +14,7 @@ export default class extends Common {
             .then(tattooData => {
                 tattooData = tattooData.Tattoos
                 console.log(tattooData);
-                var tattoos = document.getElementById("artist-tattoos");
+                var tattoos = document.getElementById("artist-tatt");
                 tattooData.forEach(e => {
                     console.log(e);
                     console.log(e.name);
@@ -39,7 +39,7 @@ export default class extends Common {
         return `
         <div class="artist-profile">
 	        <div class="info-det"></div>
-            <div class="artist-tattoos"></div>
+            <div class="artist-tattoos" id="artist-tatt"></div>
         </div>
     `;
     }
