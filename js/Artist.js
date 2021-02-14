@@ -18,23 +18,21 @@ export default class extends Common {
                     console.log(e.name);
 
                     artists.innerHTML += `
-                    <a href="...">
-                        <div class="box">
-                            <div class="details">
-                                <div class="cover">
-                                    <img src="${e.cover}" alt="" />
-                                </div>
-                                <div class="image">
-                                    <img src="${e.image}" alt="" />
-                                </div>
-                                <div class="artist-info">
-                                    <span itemprop="name" class="artist-name">${e.firstName} ${e.lastName}</span>
-                                    <span itemprop="name" class="studio-name">SOMETHING STUD</span>
-                                    <button type="button">View Profile</button>
-                                </div>
+                    <div class="box">
+                        <div class="details">
+                            <div class="cover">
+                                <img src="${e.cover}" alt="" />
+                            </div>
+                            <div class="image">
+                                <img src="${e.image}" alt="" />
+                            </div>
+                            <div class="artist-info">
+                                <span itemprop="name" class="artist-name">${e.firstName} ${e.lastName}</span>
+                                <span itemprop="name" class="studio-name">SOMETHING STUD</span>
+                                <button type="button">View Profile</button>
                             </div>
                         </div>
-                     </a>
+                    </div>
                  `;
 
                 });
