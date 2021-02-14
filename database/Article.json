@@ -1,0 +1,26 @@
+{
+  "Article": [
+    {
+      "id": "0",
+      "title": "About to Get Your First Tattoo?",
+      "subtitle": "This Is Everything You Need to Know",
+      "description": "Getting your first tattoo is a big deal. At least it is to most people, and it’s not an undertaking to view lightly – as with anything that’s meant to last forever. There’s more to getting a tattoo than meets the eye. You may already know a thing or two about them, and the chances are good that you know someone who has a tattoo, especially in today’s world. Tattoos are more popular than ever and have a widespread acceptance that’s unprecedented.",
+      "image": "https://i.pinimg.com/originals/9c/f4/49/9cf449dbeca3840fc82be840853f9b5d.jpg"
+    },
+    {
+      "id": "1",
+      "title": "How to Erase the Past",
+      "subtitle": "A Guide to Cover Up Tattoos",
+      "description": "So, real quick, we’re going to explore laser removal. Partly because it’s not as expensive as you think, the pain is totally worth it, but also because you may have to do partial removal anyway. It completely depends on your tattoo or scarring, but, as you may imagine, highly raised scars or tattoos that are packed with pigment, can be doubly difficult to rework. Doing a few removal sessions may lighten your tattoo, or bring your scarring down, so that the cover up tattoo has a better chance of really covering as if it were never there!",
+      "image": "https://lilu-ps.github.io/WebFinalProject/images/coverup.jpg"
+    },
+    {
+      "id": "2  ",
+      "title": "Scared of tattoo pain?",
+      "subtitle": "These are the most painful places to get a tattoo",
+      "description": "If you're planning to get a tattoo, you'll probably have thought very carefully about where you want to get it. For most people this decision is all about aesthetic, but it's also worth considering how painful it's likely to be - especially if you're a bit of a wimp when it comes to how much agony you can handle.",
+      "image": "https://lilu-ps.github.io/WebFinalProject/images/head.jpg"
+    }
+
+  ]
+}

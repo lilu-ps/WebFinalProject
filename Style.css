@@ -901,3 +901,9 @@ nav select {
 }
 
 /*menu dropdown end*/
+
+
+.my-article {
+    display: flex;
+    flex-direction: column;
+}

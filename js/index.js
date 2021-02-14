@@ -4,6 +4,7 @@ import ArtistProfile from './ArtistProfile.js';
 import Tattoo from './Tattoo.js';
 import Studios from './Studio.js';
 import StudioProfile from './StudioProfile.js';
+import Article from './Article.js';
 import { u } from './lib.js';
 
 const cleanPath = path =>
@@ -44,6 +45,7 @@ const router = async () => {
         { path: u('/tattoos'), view: Tattoo },
         { path: u('/studios'), view: Studios },
         { path: u('/studios/:id'), view: StudioProfile },
+        { path: u('/article/:id'), view: Article },
     ];
 
     const potentialMatches = routes.map(route => {

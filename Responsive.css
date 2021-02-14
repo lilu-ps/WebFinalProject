@@ -61,6 +61,10 @@
         display: none;
     }
 
+    .studio-profile {
+        width: 100%;
+    }
+
     nav select {
         display: inline-block;
     }

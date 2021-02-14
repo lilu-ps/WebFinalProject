@@ -101,21 +101,21 @@ export default class extends Common {
                     <h3>About to Get Your First Tattoo?</h3>
                     <h5>This Is Everything You Need to Know</h5>
                     <p>Getting your first tattoo is a big deal. It’s not an undertaking to view lightly – as with anything that’s meant to last forever. There’s more to getting a tattoo than meets the eye.</p>
-                    <button type="button">READ MORE>></button>
+                    <a href="${u('/article/0')}" data-link class="link-button">Read More</a>
                 </div>
                 <div class="intro-item">
                     <img src="./images/coverup.jpg" class="tattoo-info"></img>
                     <h3>How to Erase the Past</h3>
                     <h5>A Guide to Cover Up Tattoos</h5>
                     <p>There are three different types of cover up tattoos: complete coverage, creative reinvention, and blast overs. You may have to do laser removal, for scars and for old tattoos.</p>
-                    <button type="button">READ MORE>></button>
+                    <a href="${u('/article/1')}" data-link class="link-button">Read More</a>
                 </div>
                 <div class="intro-item">
                     <img src="images/head.jpg" class="tattoo-info"></img>
                     <h3>Scared of tattoo pain?</h3>
                     <h5>These are the most painful places to get a tattoo</h5>
                     <p>There's a difference in how painful a tattoo is likely to be depending on where on the body you get it. If you've got a low pain threshold, you should think twice before getting a tattoo in any of these parts.</p>
-                    <button type="button">READ MORE>></button>
+                    <a href="${u('/article/2')}" data-link class="link-button">Read More</a>
                 </div>
             </div>
 
