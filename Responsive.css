@@ -18,6 +18,18 @@
 
 @media all and (max-width: 320px) {
 
+    .my-article p{
+        font-size: 10px;
+    }
+
+    .article {
+        width:100%;
+    }
+
+    .image-article img {
+        width: 100%;
+    }
+
     .artist-list {
         width: 100%;
         grid-template-columns: repeat( auto-fit, minmax(320px, 1fr) );
