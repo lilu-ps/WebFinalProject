@@ -49,12 +49,11 @@ export default class extends Common {
             <section class="app-section">
                 <div class="container">
 
-                    <div class="hmenu">
-                     <ul>
-                      <li><a href="...">A</a></li>
-                      <li><a href="...">B</a></li>
-                      <li><a href="...">C</a></li>
-                     </ul>
+                    <div class="artist-list" id="artists-ls">
+
+
+
+
                     </div>
                 </div>
             </section>
