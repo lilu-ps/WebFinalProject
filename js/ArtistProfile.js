@@ -43,9 +43,7 @@ export default class extends Common {
                         artists.innerHTML += `
                     <div class="box">
                         <div class="details">
-                            <div class="cover">
-                                <img src="${e.cover}" alt="" />
-                            </div>
+  
                             <div class="image">
                                 <img src="${e.image}" alt="" />
                             </div>

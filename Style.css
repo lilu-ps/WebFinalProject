@@ -508,6 +508,7 @@ nav select {
     height: 70px;
     left: 115px;
     background-color: white;
+    box-shadow: 1px 1px 2px #3bafbe, 0 0 25px #3bafbe, 0 0 5px #3bafbe;
     display: flex;
     align-items: center;
     border-radius: 50%;
@@ -517,8 +518,8 @@ nav select {
 
     .image img {
         display: block;
-        width: 85%;
-        height: 85%;
+        width: 90%;
+        height: 90%;
         background: green;
         border-radius: 50%;
     }
