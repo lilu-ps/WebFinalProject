@@ -51,7 +51,8 @@ export default class extends Common {
                 <div class="container">
 
                     <div class="artist-profile" id="artists-profile">
-
+                        <scrip>
+                         </script>
     
 
 
