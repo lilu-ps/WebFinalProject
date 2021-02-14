@@ -5,6 +5,8 @@ import Tattoo from './Tattoo.js';
 import Studios from './Studio.js';
 import StudioProfile from './StudioProfile.js';
 import Article from './Article.js';
+import TattooFilterStyle from '.TattooFilterStyle.js';
+
 import { u } from './lib.js';
 
 const cleanPath = path =>
@@ -46,6 +48,8 @@ const router = async () => {
         { path: u('/studios'), view: Studios },
         { path: u('/studios/:id'), view: StudioProfile },
         { path: u('/article/:id'), view: Article },
+        { path: u('/tattoos/:id'), view: TattooFilterStyle },
+        
     ];
 
     const potentialMatches = routes.map(route => {
