@@ -30,6 +30,10 @@ const viewProfile = id =>{
     console.log(id)
 }
 
+window.goTo = (uri, routeName) => {
+    alert("heeeeeereeeeeee");
+};
+
 
 const router = async () => {
     const routes = [
