@@ -31,32 +31,6 @@ export default class extends Common {
                 });
             })
 
-        fetch('/WebFinalProject/database/Artists.json')
-            .then(response => response.json())
-            .then(artstsData => {
-                artstsData = artstsData.Artists
-                console.log(artstsData);
-                var artists = document.getElementById("info-details");
-                artstsData.forEach(e => {
-                    if (e.id === this.postID) {
-                        artists.innerHTML += `
-                    <div class="box">
-                        <div class="details">
-  
-                            <div class="image">
-                                <img src="${e.image}" alt="" />
-                            </div>
-                            <div class="artist-info">
-                                <span itemprop="name" class="artist-name">${e.firstName} ${e.lastName}</span>
-                                <span itemprop="name" class="studio-name">${e.studio}</span>
-                            </div>
-                        </div>
-                    </div>
-                 `;
-                    }
-
-                });
-            })
     }
 
 
