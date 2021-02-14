@@ -138,7 +138,7 @@ footer {
 .app-section{
     background-color: none;
     overflow:hidden;
-    z-index: -3;
+    z-index: -1;
 }
 
 
@@ -565,5 +565,5 @@ nav select {
     grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
     grid-column-gap: 20px;
     grid-row-gap: 40px;
-    padding-bottom: 50px;
+    padding-top: 50px;
 }
