@@ -48,13 +48,12 @@ export default class extends Common {
 
             <section class="app-section">
                 <div class="container">
-                    <div class="wrapper">
-                        <div class="artist-list menu" id="artists-ls">
+
+                    <div class="artist-list" id="artists-ls">
 
 
 
 
-                        </div>
                     </div>
                 </div>
             </section>
