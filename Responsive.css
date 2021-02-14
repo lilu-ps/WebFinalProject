@@ -26,6 +26,21 @@
         display: inline-block;
     }
 
+    .selection {
+        background-color: red;
+        font-family: Ariel;
+        height: 20px;
+        color: white;
+    }
+
+    .slide-show-dots{
+        display: none;
+    }
+
+    .slideshow-container {
+        display: none;
+    }
+
     .info-items {
         display: flex;
         flex-direction: column;
