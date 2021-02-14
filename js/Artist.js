@@ -1,7 +1,6 @@
-﻿import AbstractView from './AbstractView.js';
-import { u } from './lib.js';
+﻿import Common from './Common.js';
 
-export default class extends AbstractView {
+export default class extends Common {
     constructor(params) {
         super(params);
         this.setTitle('Artists');
