@@ -5,7 +5,16 @@
       "firstName": "Ryan",
       "lastName": "Ashley",
       "experience": 8,
-      "studio": "Elysium Studios"
+      "studio": "Elysium Studios",
+      "image": "https://liverampup.com/uploads/celebrity/ryan-ashley-malarkey(2).jpg"
+    },
+    {
+      "id": "1",
+      "firstName": "Anthony",
+      "lastName": "Michaels",
+      "experience": 10,
+      "studio": "Twenty Five Twelve",
+      "image": "https://pbs.twimg.com/profile_images/765730914831732736/u_kG0ceI_400x400.jpg"
     }
   
   ]

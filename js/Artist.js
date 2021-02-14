@@ -7,7 +7,14 @@ export default class extends Common {
     }
 
     pageElements() {
-        
+        return new Artists(function (resolve, reject) {
+            fetch('/WebFinalProject/database/Artists.json')
+                .then(response => response.json())
+                .then(artstsData => {
+                    artstsData = artstsData.Artists
+                    resolve(artstsData);
+                })
+        })
     }
 
 
