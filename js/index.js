@@ -5,7 +5,7 @@ import Tattoo from './Tattoo.js';
 import Studios from './Studio.js';
 import StudioProfile from './StudioProfile.js';
 import Article from './Article.js';
-import TattooFilterStyle from '.TattooFilterStyle.js';
+import TattooFilterStyle from './TattooFilterStyle.js';
 
 import { u } from './lib.js';
 
