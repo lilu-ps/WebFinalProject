@@ -27,9 +27,6 @@ h5 {
     color: white;
 }
 
-a:hover {
-    color: rgb(38, 34, 97);
-}
 
 .search-field {
     /*display: flex;*/
@@ -261,8 +258,8 @@ footer {
     grid-template-columns: repeat( auto-fit, minmax(225px, 1fr) );
     /* grid-template-columns: 225px 225px 225px 225px; */
     grid-column-gap: 20px;
-    padding-top: 55px;
-    padding-bottom: 55px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .info-section {
@@ -918,4 +915,42 @@ nav select {
 
 .image-article img {
     width: 30%;
+}
+
+.menu-buttons a {
+    width: 106px;
+    height: 26px;
+    font-size: 20px;
+    line-height: 13px;
+    background-color: transparent;
+    border: 2px solid #3bafbe;
+    font-family: "Georgia";
+    color: #3bafbe;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+
+    .menu-buttons a:hover {
+        color: rgb(38, 34, 97);
+        color: white;
+        box-sizing: border-box;
+        box-shadow: 1px 1px 2px #3bafbe, 0 0 15px #3bafbe, 0 0 5px #3bafbe;
+    }
+
+.search-field {
+    display: none;
+}
+
+.logo:hover {
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px #3bafbe, 0 0 15px #3bafbe, 0 0 5px #3bafbe;
+}
+
+.site-name:hover {
+    box-shadow: 1px 1px 2px #3bafbe, 0 0 15px #3bafbe, 0 0 5px #3bafbe;
 }
