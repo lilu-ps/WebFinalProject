@@ -17,7 +17,7 @@ export default class extends Common {
                 console.log(tattooData);
                 var tattoos = document.getElementById("tatt");
                 tattooData.forEach(e => {
-                    if (e.styleId === this.postId) {
+                    if (e.styleId === this.postID) {
                         tattoos.innerHTML += `
                         <div class="tattoo">
 	                        <img src="${e.image}" class="tattoo-img">
