@@ -37,7 +37,7 @@ const router = async () => {
     const routes = [
         { path: u('/'), view: Home },
         { path: u('/artists'), view: Artists },
-        { path: u('/artists/:id'), view: PostView },
+        { path: u('/artists/:id'), view: ArtistProfile },
     ];
 
     const potentialMatches = routes.map(route => {
