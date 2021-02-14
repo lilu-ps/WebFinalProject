@@ -1,0 +1,12 @@
+{
+  "Artists": [
+    {
+      "id": "0",
+      "firstName": "Ryan",
+      "lastName": "Ashley",
+      "experience": 8,
+      "studio": "Elysium Studios"
+    }
+  
+  ]
+}

@@ -97,7 +97,7 @@ export default class extends AbstractView {
         <div class="container">
             <div class="intro-items">
                 <div class="intro-item">
-                    <img src="../images/alien.jpg" class="tattoo-info"></img>
+                    <img src="https://i.pinimg.com/originals/9c/f4/49/9cf449dbeca3840fc82be840853f9b5d.jpg" class="tattoo-info"></img>
                     <h3>About to Get Your First Tattoo?</h3>
                     <h5>This Is Everything You Need to Know</h5>
                     <p>Getting your first tattoo is a big deal. It’s not an undertaking to view lightly – as with anything that’s meant to last forever. There’s more to getting a tattoo than meets the eye.</p>

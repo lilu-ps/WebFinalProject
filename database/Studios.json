@@ -1,0 +1,15 @@
+{
+  "Studios": [
+    {
+      "id": "0",
+      "name": "Elysium Studios",
+      "open": 4,
+      "numberOfArtists": 14,
+      "city": "Grand Junction",
+      "country": "USA",
+      "review": 5
+
+    }
+
+  ]
+}
