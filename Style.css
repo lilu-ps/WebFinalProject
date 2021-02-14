@@ -471,9 +471,9 @@ nav select {
 }
 
 
-    .box:hover {
-        box-shadow: 1px 1px 2px #3bafbe, 0 0 25px #3bafbe, 0 0 5px #3bafbe;
-    }
+.box:hover {
+    box-shadow: 1px 1px 2px #3bafbe, 0 0 25px #3bafbe, 0 0 5px #3bafbe;
+}
 
 
 .details {
