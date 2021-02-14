@@ -135,6 +135,11 @@ footer {
     background-color: black;
 }
 
+.app-section{
+    overflow:hidden;
+    z-index: -3;
+}
+
 
 /*from here*/
 
