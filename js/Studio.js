@@ -45,7 +45,7 @@ export default class extends Common {
         console.log("ariiiiiiiiiiiiiiiii");
         return `
 
-                 <div class="studio-list" id = "studio-ls"></div>
+                 <div class="artist-list" id = "studio-ls"></div>
 
 
     `;

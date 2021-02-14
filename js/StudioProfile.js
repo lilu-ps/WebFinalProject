@@ -15,6 +15,7 @@ export default class extends Common {
                 console.log(artstsData);
                 var artists = document.getElementById("studio-artist-ls");
                 artstsData.forEach(e => {
+                    console.log(e.studioId);
                     if (e.studioId === this.postID) {
                         artists.innerHTML += `
                         <div class="box">
