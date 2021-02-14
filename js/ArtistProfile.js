@@ -15,7 +15,7 @@ export default class extends Common {
                 tattooData = tattooData.Tattoos
                 console.log(tattooData);
                 var tattoos = document.getElementById("artist-tattoos");
-                tatData.forEach(e => {
+                tattooData.forEach(e => {
                     console.log(e);
                     console.log(e.name);
                     if (e.id === this.postID) {
