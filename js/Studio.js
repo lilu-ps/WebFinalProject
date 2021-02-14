@@ -10,7 +10,7 @@ export default class extends Common {
         fetch('/WebFinalProject/database/Studios.json')
             .then(response => response.json())
             .then(studiosData => {
-                studiosData = studiosData.Artists
+                studiosData = studiosData.Studios
                 console.log(studiosData);
                 var studios = document.getElementById("studio-ls");
                 studiosData.forEach(e => {
