@@ -46,8 +46,6 @@ export default class extends Common {
         //var artists = await this.getArtists()
         return `
 
-            <section class="app-section">
-                <div class="container">
 
                     <div class="artist-list" id="artists-ls">
 
@@ -55,8 +53,7 @@ export default class extends Common {
 
 
                     </div>
-                </div>
-            </section>
+ 
 
     `;
     }
