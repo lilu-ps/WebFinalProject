@@ -1,4 +1,5 @@
 import Common from './Common.js';
+import { u } from './lib.js';
 
 
 export default class extends Common {
@@ -49,7 +50,8 @@ export default class extends Common {
                             </div>
                             <div class="artist-info">
                                 <span itemprop="name" class="artist-name">${e.firstName} ${e.lastName}</span>
-                                <span itemprop="name" class="studio-name">${e.studio}</span>
+
+                                <a href="${u('/studios/' + e.studioId)}" data-link class="link-button">${e.studio}</a>
                             </div>
                         </div>
                     </div>
@@ -59,7 +61,7 @@ export default class extends Common {
                 });
             })
     }
-    
+                                    //<span itemprop="name" class="studio-name">${e.studio}</span>
 
 
     async getHtml() {
