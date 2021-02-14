@@ -104,7 +104,7 @@ export default class extends Common {
                     <button type="button">READ MORE>></button>
                 </div>
                 <div class="intro-item">
-                    <img src="../images/coverup.jpg" class="tattoo-info"></img>
+                    <img src="./images/coverup.jpg" class="tattoo-info"></img>
                     <h3>How to Erase the Past</h3>
                     <h5>A Guide to Cover Up Tattoos</h5>
                     <p>There are three different types of cover up tattoos: complete coverage, creative reinvention, and blast overs. You may have to do laser removal, for scars and for old tattoos.</p>
