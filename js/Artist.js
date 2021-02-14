@@ -7,20 +7,19 @@ export default class extends Common {
     }
 
     pageElements() {
-        return new Artists(function (resolve, reject) {
-            fetch('/WebFinalProject/database/Artists.json')
-                .then(response => response.json())
-                .then(artstsData => {
-                    artstsData = artstsData.Artists
-                    resolve(artstsData);
-                })
-        })
+        fetch('/WebFinalProject/database/Artists.json')
+            .then(response => response.json())
+            .then(artstsData => {
+                artstsData = artstsData.Artists
+                console.log(artstsData);
+            })
     }
 
 
 
     async getHtml() {
         console.log("ariiiiiiiiiiiiiiiii");
+        //var artists = await this.getArtists()
         return `
 
     <section class="intro-section">
