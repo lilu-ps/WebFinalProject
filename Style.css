@@ -903,14 +903,19 @@ nav select {
 /*menu dropdown end*/
 
 
-.my-article {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    flex-direction: column;
-}
 
 .my-article {
     width: 100%;
-    background-color: red;
+    margin: auto;
+}
+
+.article {
+    width: 960px;
+    color: #3bafbe;
+    position: relative;
+    margin: auto;
+}
+
+.image-article img {
+    width: 30%;
 }
