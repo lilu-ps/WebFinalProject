@@ -638,9 +638,19 @@ nav select {
     margin: auto;
 }
 
+.studio-profile {
+    width: 960px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+
+.stud-info-det {
+    width: 100%;
+}
 .info-det {
     width: 100%;
-    ;
 }
 
 .artist-tattoos {
@@ -654,6 +664,17 @@ nav select {
     margin-bottom: 20px;
 }
 
+.studio-artist-list {
+    display: grid;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
+    grid-column-gap: 30px;
+    grid-row-gap: 40px;
+}
+
 .tattoo-desc {
     display: flex;
     flex-direction: column;
@@ -664,6 +685,12 @@ nav select {
     flex-direction: column;
     height: 300px;
 }
+
+/*.artist-tattoos > tattoo {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+}*/
 
 .tattoo > img {
     border-radius: 5px;
@@ -678,6 +705,11 @@ nav select {
 }
 
 .artist-tattoos .tattoo img:hover {
+    transform: scale(1.25);
+    box-shadow: 1px 1px 2px #3bafbe, 0 0 25px #3bafbe, 0 0 5px #3bafbe;
+}
+
+.artist-tattoos .box:hover {
     transform: scale(1.25);
     box-shadow: 1px 1px 2px #3bafbe, 0 0 25px #3bafbe, 0 0 5px #3bafbe;
 }

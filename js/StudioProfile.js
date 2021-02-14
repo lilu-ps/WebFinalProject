@@ -74,9 +74,9 @@ export default class extends Common {
 
     async getHtml() {
         return `
-            <div class="artist-profile">
-	            <div class="info-det" id="stud-info-details"></div>
-                 <div class="artist-list" id = "studio-artist-ls"></div>
+            <div class="studio-profile">
+	            <div class="stud-info-det" id="stud-info-details"></div>
+                 <div class="studio-artist-list" id = "studio-artist-ls"></div>
             </div>
 
 
