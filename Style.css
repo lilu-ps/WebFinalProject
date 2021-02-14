@@ -528,12 +528,16 @@ nav select {
     font-size: 13px;
 }
 
+.artist-info .studio-name {
+    font-size: 10px;
+}
+
 .artist-info {
     height: 80px;
-    margin-top: 35px;
+    margin-top: 36px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     color: #3bafbe;
 }
@@ -543,7 +547,7 @@ nav select {
         height: 30px;
         font-size: 13px;
         line-height: 13px;
-        background-color: white;
+        background-color: transparent;
         border: 2px solid #3bafbe;
         font-family: "Georgia";
         color: #3bafbe;
