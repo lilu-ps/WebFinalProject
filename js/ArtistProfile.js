@@ -8,10 +8,39 @@ export default class extends Common {
         this.setTitle('Viewing Artist');
     }
 
+    pageElements() {
+        fetch('/WebFinalProject/database/Tattoos.json')
+            .then(response => response.json())
+            .then(tattooData => {
+                tatData = tattooData.Artists
+                console.log(tattooData);
+                var tattoos = document.getElementById("artist-tattoos");
+                tatData.forEach(e => {
+                    console.log(e);
+                    console.log(e.name);
+                    if (e.id === this.postID) {
+                        tattoos.innerHTML += `
+                            <div class="tattoo">
+	                            <img src="${e.image}" class="tattoo-img">
+                                <div class="tattoo-desc">
+                                    <span itemprop="name" class="tattoo-name">${e.name}</span>
+                                <span itemprop="name" class="tattoo-price">Price: ${e.price} USD</span>
+                                </div>
+                            </div>
+                         `;
+                    }
+
+                });
+            })
+    }
+
+
     async getHtml() {
         return `
-        <h1>Post</h1>
-        <p>You are viewing post #${this.postID}. No content can be shown here yet.</p>
+        <div class="artist-profile">
+	        <div class="info-det"></div>
+            <div class="artist-tattoos"></div>
+        </div>
     `;
     }
 }
