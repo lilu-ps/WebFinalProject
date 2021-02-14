@@ -567,5 +567,29 @@ nav select {
     grid-column-gap: 20px;
     grid-row-gap: 40px;
     padding-top: 50px;
+    padding-bottom: 50px;
+    z-index: -50;
+}
+
+[class*="artist-list"] {
+    float: left;
+    padding: 15px;
+}
+
+.menu box:hover {
+    box-shadow: 1px 1px 2px #3bafbe, 0 0 25px #3bafbe, 0 0 5px #3bafbe;
+}
+
+
+.wrapper::after {
+    content: "";
+    clear: both;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
+    grid-column-gap: 20px;
+    grid-row-gap: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     z-index: -50;
 }
