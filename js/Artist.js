@@ -6,14 +6,6 @@ export default class extends Common {
         this.setTitle('Artists');
     }
 
-    bigImg(x) {
-        consol.log("hehe");
-    }
-
-    normalImg(x) {
-        consol.log("over");
-    }
-
     pageElements() {
         fetch('/WebFinalProject/database/Artists.json')
             .then(response => response.json())
@@ -26,7 +18,7 @@ export default class extends Common {
                     console.log(e.name);
 
                     artists.innerHTML += `
-                    <div class="box" onmouseover="bigImg(this)" onmouseout="normalImg(this)">
+                    <div class="box">
                         <div class="details">
                             <div class="cover">
                                 <img src="${e.cover}" alt="" />
