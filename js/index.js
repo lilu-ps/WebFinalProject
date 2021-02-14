@@ -25,14 +25,13 @@ const pushTo = url => {
 };
 
 
-const viewProfile = id =>{
-    console.log("miiiineeee")
-    console.log(id)
-}
-
-window.goTo = (uri, routeName) => {
-    alert("heeeeeereeeeeee");
+const viewProfile = id => {
+    alert("??????????");
+    console.log("miiiineeee");
+    console.log(id);
 };
+
+
 
 
 const router = async () => {
