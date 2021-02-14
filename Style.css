@@ -634,6 +634,7 @@ nav select {
     width: 960px;
     display: flex;
     flex-direction: column;
+    margin: auto;
 }
 
 .info-det {
@@ -645,9 +646,11 @@ nav select {
     display: grid;
     width: 100%;
     margin: auto;
-    grid-template-columns: repeat( auto-fit, minmax(213px, 1fr) );
-    grid-column-gap: 12px;
-    grid-row-gap: 20px;
+    grid-template-columns: repeat( auto-fit, minmax(202.5px, 1fr) );
+    grid-column-gap: 50px;
+    grid-row-gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .tattoo-desc {
@@ -655,19 +658,25 @@ nav select {
     flex-direction: column;
 }
 
-.tattoo {
+.artist-tattoos > tattoo {
     display: flex;
     flex-direction: column;
     height: 300px;
 }
 
-    .tattoo img {
-        width: 200px;
-        height: 250px;
-    }
+.tattoo > img {
+    border-radius: 5px;
+    width: 202.6px;
+    height: 250px;
+}
 
 .tattoo-desc span {
     font-family: "Georgia";
     font-size: 13px;
     color: #3bafbe;
+}
+
+.artist-tattoos .tattoo img:hover {
+    transform: scale(1.25);
+    box-shadow: 1px 1px 2px #3bafbe, 0 0 25px #3bafbe, 0 0 5px #3bafbe;
 }
