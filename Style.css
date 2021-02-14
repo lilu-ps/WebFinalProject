@@ -575,9 +575,13 @@ nav select {
 
 .hmenu {
     display: grid;
-    grid-auto-columns: auto;
-    background-color: #015491;
-    margin-top: 5px;
+    width: 100%;
+    /*grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );*/
+    grid-column-gap: 20px;
+    grid-row-gap: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    z-index: -50;
 }
 
     /*.hmenu > ul {
@@ -598,7 +602,7 @@ nav select {
         margin-right: 50px;
     }*/
 
-    .hmenu > a {
+    /*.hmenu > a {
         font-size: 15px;
         line-height: 100%;
         text-transform: uppercase;
@@ -606,8 +610,8 @@ nav select {
         font-family: sans-serif "Avenir Light";
         font-weight: 300;
         color: #FFFFFF;
-    }
+    }*/
 
-    .hmenu :hover {
+    .hmenu a :hover {
         box-shadow: 1px 1px 2px #3bafbe, 0 0 25px #3bafbe, 0 0 5px #3bafbe;
     }
