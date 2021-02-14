@@ -136,6 +136,7 @@ footer {
 }
 
 .app-section{
+    background-color: none;
     overflow:hidden;
     z-index: -3;
 }
@@ -560,7 +561,7 @@ nav select {
 
 .artist-list {
     display: grid;
-    /* grid-template-columns: 300px 300px 300px; */
+    width: 100%;
     grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
     grid-column-gap: 20px;
     grid-row-gap: 40px;
