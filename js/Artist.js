@@ -12,6 +12,7 @@ export default class extends Common {
             .then(artstsData => {
                 artstsData = artstsData.Artists
                 console.log(artstsData);
+                var artists = document.getElementById("artists-ls");
                 artstsData.forEach(e => {
                     console.log(e);
                     console.log(e.name);
@@ -48,7 +49,7 @@ export default class extends Common {
     <section class="intro-section">
         <div class="container">
             <div class="artists">
-                <div class="artist-list">
+                <div class="artist-list" id ="artists-ls">
 
 
                     
