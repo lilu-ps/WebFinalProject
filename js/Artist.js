@@ -29,7 +29,7 @@ export default class extends Common {
                             <div class="artist-info">
                                 <span itemprop="name" class="artist-name">${e.firstName} ${e.lastName}</span>
                                 <span itemprop="name" class="studio-name">${e.studio}</span>
-                                <a href="${u('/artists/2')}" data-link class="link-button">#2 - How to build a GH Pages site</a>
+                                <a href="${u('/artists/' + e.id)}" data-link class="link-button">View Artist</a>
                             </div>
                         </div>
                     </div>

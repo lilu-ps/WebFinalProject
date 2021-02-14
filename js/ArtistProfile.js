@@ -5,7 +5,7 @@ export default class extends Common {
     constructor(params) {
         super(params);
         this.postID = params.id;
-        this.setTitle('Viewing Post');
+        this.setTitle('Viewing Artist');
     }
 
     async getHtml() {
