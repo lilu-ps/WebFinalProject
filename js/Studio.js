@@ -4,7 +4,7 @@ import { u } from './lib.js';
 export default class extends Common {
     constructor(params) {
         super(params);
-        this.setTitle('Artists');
+        this.setTitle('Studios');
     }
     pageElements() {
         fetch('/WebFinalProject/database/Studios.json')
