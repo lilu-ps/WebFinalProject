@@ -25,7 +25,7 @@ const pushTo = url => {
 };
 
 
-const viewProfile = id => {
+window.viewProfile = id => {
     alert("??????????");
     console.log("miiiineeee");
     console.log(id);

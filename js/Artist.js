@@ -47,8 +47,6 @@ export default class extends Common {
 
                 <div class="artist-list" id = "artists-ls">
                 </div>
- 
-
     `;
     }
 }
