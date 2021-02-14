@@ -101,6 +101,38 @@
       "artistId": "2",
       "image": "http://inkspiredmagazine.com/wp-content/uploads/2018/04/30913705_1503583883084684_5908878025717448704_n.jpg",
       "price": 10000
+    },
+    {
+      "id": "12",
+      "name": "Dog",
+      "styleId": "2",
+      "artistId": "3",
+      "image": "https://cdn.shopify.com/s/files/1/0024/3164/7803/articles/joeyhamiltontattoo_26183643_1536689256380429_3004426986165633024_n.jpg?v=1528130734",
+      "price": 3500
+    },
+    {
+      "id": "13",
+      "name": "Owl",
+      "styleId": "4",
+      "artistId": "3",
+      "image": "https://cdn.shopify.com/s/files/1/0024/3164/7803/files/joeyhamiltontattoo_26073670_1213908358743915_4792879259737653248_n.jpg?v=1528130640",
+      "price": 7000
+    },
+    {
+      "id": "14",
+      "name": "",
+      "styleId": "3",
+      "artistId": "3",
+      "image": "https://i.pinimg.com/originals/9a/6e/eb/9a6eeb6b605aa3970ca073dd084851ba.jpg",
+      "price": 10000
+    },
+    {
+      "id": "15",
+      "name": "Phoenix",
+      "styleId": "1",
+      "artistId": "3",
+      "image": "https://i.pinimg.com/originals/9e/e8/07/9ee8072ed0bf31cd7aac2c77efa4ed15.jpg",
+      "price": 2000
     }
 
 
