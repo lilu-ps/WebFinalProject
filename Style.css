@@ -657,4 +657,10 @@ nav select {
 .tattoo {
     display: flex;
     flex-direction: column;
+    height: 300px;
+}
+
+.tattoo img{
+    width: 200px;
+    height: 250px;
 }
