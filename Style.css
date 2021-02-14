@@ -583,16 +583,18 @@ nav select {
 }
 
 .image:hover {
-    border-radius: 5px;
     box-shadow: 1px 1px 2px #3bafbe, 0 0 25px #3bafbe, 0 0 5px #3bafbe;
 }
 
 .image img:hover {
-    border-radius: 5px
+    width: 150%;
+    height: 150%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px #3bafbe, 0 0 25px #3bafbe, 0 0 5px #3bafbe;
 }
 
 .box:hover {
-    border-radius: 16px;
+    border-radius: 5px;
 }
 
 .artist-list .box ::before {
@@ -605,6 +607,6 @@ nav select {
 }
 
 
-.app-items{
+.app-items {
     background-color: black;
 }
