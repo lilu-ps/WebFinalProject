@@ -133,6 +133,22 @@
       "artistId": "3",
       "image": "https://i.pinimg.com/originals/9e/e8/07/9ee8072ed0bf31cd7aac2c77efa4ed15.jpg",
       "price": 2000
+    },
+    {
+      "id": "16",
+      "name": "Phoenix",
+      "styleId": "3",
+      "artistId": "4",
+      "image": "https://i.pinimg.com/originals/a9/59/61/a9596104940e2df280f9f8b34bc0326b.jpg",
+      "price": 7800
+    },
+    {
+      "id": "17",
+      "name": "Phoenix",
+      "styleId": "3",
+      "artistId": "4",
+      "image": "https://pbs.twimg.com/media/DeoKVXvUwAA4T6L.jpg",
+      "price": 8000
     }
 
 

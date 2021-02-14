@@ -39,6 +39,16 @@
       "studio": "Revolt Tattoos",
       "image": "https://www.inkedmag.com/.image/t_share/MTU5MDMyNTA5NTYyNDMxMTI1/inkmasterwinner-s3-joey-hamilton.jpg",
       "cover": "https://www.skillsetmag.com/wp-content/uploads/sites/14/2019/10/1joey6.jpg"
+    },
+    {
+      "id": "4",
+      "firstName": "Kelly",
+      "lastName": "Doty",
+      "experience": 10,
+      "studioId": "0",
+      "studio": "Elysium Studios",
+      "image": "https://tattoocloud.com/system/user_infos/mugshots/000/008/370/web/14125552_1355645507798509_1740667832448209043_o.jpg?1492195076",
+      "cover": "https://www.inkedmag.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_768/MTY1ODIxNDc1NTExNjA5MjY3/kelly-ims12-fb.jpg"
     }
   
   ]
