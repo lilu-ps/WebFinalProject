@@ -1,4 +1,4 @@
-﻿import Common from './Common.js';
+import Common from './Common.js';
 
 export default class extends Common {
     constructor(params) {
@@ -43,26 +43,19 @@ export default class extends Common {
 
     async getHtml() {
         console.log("ariiiiiiiiiiiiiiiii");
+        var data = [];
         //var artists = await this.getArtists()
         return `
 
             <section class="app-section">
                 <div class="container">
 
-                    <div class="artist-list" id="artists-ls">
+                    <div class="artist-profile" id="artists-profile">
 
-
+    
 
 
                     </div>
-
-<div class="hmenu">
- <ul>
-  <li><a href="...">A</a></li>
-  <li><a href="...">B</a></li>
-  <li><a href="...">C</a></li>
- </ul>
-</div>
                 </div>
             </section>
 
