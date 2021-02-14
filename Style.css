@@ -631,13 +631,14 @@ nav select {
 
 
 .artist-profile {
-    width:960px;
+    width: 960px;
     display: flex;
     flex-direction: column;
 }
 
 .info-det {
-    width: 100%;;
+    width: 100%;
+    ;
 }
 
 .artist-tattoos {
@@ -660,7 +661,13 @@ nav select {
     height: 300px;
 }
 
-.tattoo img{
-    width: 200px;
-    height: 250px;
+    .tattoo img {
+        width: 200px;
+        height: 250px;
+    }
+
+.tattoo-desc span {
+    font-family: "Georgia";
+    font-size: 13px;
+    color: #3bafbe;
 }
