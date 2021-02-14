@@ -14,8 +14,6 @@ export default class extends Common {
                 console.log(artstsData);
                 var artists = document.getElementById("artists-ls");
                 artstsData.forEach(e => {
-                    console.log(e);
-                    console.log(e.name);
 
                     artists.innerHTML += `
                     <div class="box">
