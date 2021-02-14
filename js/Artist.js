@@ -1,5 +1,5 @@
 ﻿import Common from './Common.js';
-
+import { u } from '../lib.js';
 export default class extends Common {
     constructor(params) {
         super(params);
@@ -47,8 +47,7 @@ export default class extends Common {
         //var artists = await this.getArtists()
         return `
 
-                <div class="hmenu" id = "artists-ls">
-                  //<a href="...">A</a>
+                <div class="hmenu" id ="artists-ls">
 
                 </div>
  
