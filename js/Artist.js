@@ -12,7 +12,7 @@ export default class extends Common {
             .then(artstsData => {
                 artstsData = artstsData.Artists
                 console.log(artstsData);
-                artstsData.response.forEach(e => {
+                artstsData.forEach(e => {
                     console.log(e);
                     console.log(e.name);
 
