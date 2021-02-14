@@ -5,7 +5,36 @@
       "name": "Elysium Studios",
       "open": 4,
       "numberOfArtists": 14,
-      "city": "Grand Junction",
+      "city": "Grand Junction,Colorado",
+      "country": "USA",
+      "review": 5
+    },
+    {
+      "id": "1",
+      "name": "Twenty Five Twelve",
+      "open": 4,
+      "numberOfArtists": 14,
+      "city": "Tucson , AZ",
+      "country": "USA",
+      "review": 5
+
+    },
+    {
+      "id": "2",
+      "name": "Old Town Ink",
+      "open": 4,
+      "numberOfArtists": 14,
+      "city": "Scottsdale,Arizona",
+      "country": "USA",
+      "review": 5
+
+    },
+    {
+      "id": "3",
+      "name": "Revolt Tattoos",
+      "open": 4,
+      "numberOfArtists": 14,
+      "city": "Las Vegas",
       "country": "USA",
       "review": 5
 

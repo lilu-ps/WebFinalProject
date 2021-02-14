@@ -1,0 +1,108 @@
+{
+  "Artists": [
+    {
+      "id": "0",
+      "name": "Ink Master Coach",
+      "styleId": "2",
+      "artistId": "0",
+      "image": "https://i.imgur.com/8Kk7EpO.jpg",
+      "price": 5000
+    },
+
+    {
+      "id": "2",
+      "name": "Nikki Simpson Neck Tattoo",
+      "styleId": "4",
+      "artistId": "0",
+      "image": "https://i.pinimg.com/736x/d4/38/13/d438138b948fb0d55103bd8e7e30b9e5.jpg",
+      "price": 6000
+    },
+
+    {
+      "id": "3",
+      "name": "Shoulder Jewellery",
+      "styleId": "2",
+      "artistId": "0",
+      "image": "https://www.rvatattooarts.com/wp-content/uploads/2019/05/RyanAshley_9.jpg",
+      "price": 5500
+    },
+
+    {
+      "id": "3",
+      "name": "Shoulder Witch",
+      "styleId": "4",
+      "artistId": "0",
+      "image": "https://cdn.shopify.com/s/files/1/0024/3164/7803/files/ryan9_large.jpeg?v=1528123826",
+      "price": 6500
+    },
+
+    {
+      "id": "4",
+      "name": "Lady And A Wolf",
+      "styleId": "2",
+      "artistId": "1",
+      "image": "https://i.pinimg.com/originals/c8/79/6d/c8796d45a84c153f5aa729e597c5d795.jpg",
+      "price": 7000
+    },
+    {
+      "id": "5",
+      "name": "Halloween",
+      "styleId": "2",
+      "artistId": "1",
+      "image": "https://i.pinimg.com/originals/01/9c/01/019c01dfb2d6a5207648dfbe35ed277d.jpg",
+      "price": 3000
+    },
+
+    {
+      "id": "6",
+      "name": "Dragon",
+      "styleId": "1",
+      "artistId": "1",
+      "image": "https://i.pinimg.com/originals/a9/a7/43/a9a743dbb8a15a3bdcdda098ebd92f7c.jpg",
+      "price": 3000
+    },
+    {
+      "id": "7",
+      "name": "Chef",
+      "styleId": "2",
+      "artistId": "2",
+      "image": "https://images.squarespace-cdn.com/content/v1/5c433265d274cba2e7162d64/1600449360109-CE97D4RWRN032UDTDXB8/ke17ZwdGBToddI8pDm48kPaV9_6OxPdAqiP9-OE6lfp7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmzRdow2MKoDNGJuOcT_AGWYoLtCY7TJFFFl1VxWfy6xWIJd8BUU6CLVhHoZMdYe6H/image-asset.jpeg",
+      "price": 5000
+    },
+    {
+      "id": "8",
+      "name": "Killer Snake",
+      "styleId": "0",
+      "artistId": "2",
+      "image": "https://i.pinimg.com/originals/e5/e9/17/e5e917ac44f70917eec3490e6ce7a78f.jpg",
+      "price": 4000
+    },
+
+    {
+      "id": "9",
+      "name": "Music",
+      "styleId": "4",
+      "artistId": "2",
+      "image": "https://www.worldfamoustattooink.com/wp-content/uploads/2018/04/dj.png",
+      "price": 6000
+    },
+    {
+      "id": "10",
+      "name": "Something Weird",
+      "styleId": "3",
+      "artistId": "2",
+      "image": "https://tattoodo-mobile-app.imgix.net/images/posts/20181106_vJyztuNSXwjt3MU.jpg?w=1080&fit=crop&auto=format%2Ccompress",
+      "price": 7000
+    },
+    {
+      "id": "11",
+      "name": "Head Tattoo",
+      "styleId": "1",
+      "artistId": "2",
+      "image": "http://inkspiredmagazine.com/wp-content/uploads/2018/04/30913705_1503583883084684_5908878025717448704_n.jpg",
+      "price": 10000
+    }
+
+
+  ]
+}

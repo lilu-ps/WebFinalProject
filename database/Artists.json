@@ -5,6 +5,7 @@
       "firstName": "Ryan",
       "lastName": "Ashley",
       "experience": 8,
+      "studioId":  "0",
       "studio": "Elysium Studios",
       "image": "https://liverampup.com/uploads/celebrity/ryan-ashley-malarkey(2).jpg",
       "cover": "https://s24526.pcdn.co/wp-content/uploads/2016/08/web1_TTL082416inkmaster3-3.jpg"
@@ -14,6 +15,7 @@
       "firstName": "Anthony",
       "lastName": "Michaels",
       "experience": 10,
+      "studioId": "1",
       "studio": "Twenty Five Twelve",
       "image": "https://pbs.twimg.com/profile_images/765730914831732736/u_kG0ceI_400x400.jpg",
       "cover": "https://images.squarespace-cdn.com/content/v1/597681fff5e231ba9b7f0300/1518754932178-FBX4KTNNB6M8WI5BREMC/ke17ZwdGBToddI8pDm48kKhtr6dEh7Q5srN6CHbsxttZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIpwe3lr9NYZFRrfZpS-kfFFqi0L_94SHRKGHa8598WmEKMshLAGzx4R3EDFOm1kBS/Capture.JPG"
@@ -23,6 +25,7 @@
       "firstName": "TJ",
       "lastName": "Tambe",
       "experience": 15,
+      "studioId": "2",
       "studio": "Old Town Ink",
       "image": "https://www.reviewjournal.com/wp-content/uploads/2019/09/12761154_web1_webdj-tambe-ink-master.jpg",
       "cover": "https://i.ytimg.com/vi/4YPSIfd2qvQ/maxresdefault.jpg"
@@ -32,6 +35,7 @@
       "firstName": "Joey",
       "lastName": "Hamilton",
       "experience": 13,
+      "studioId": "3",
       "studio": "Revolt Tattoos",
       "image": "https://www.inkedmag.com/.image/t_share/MTU5MDMyNTA5NTYyNDMxMTI1/inkmasterwinner-s3-joey-hamilton.jpg",
       "cover": "https://www.skillsetmag.com/wp-content/uploads/sites/14/2019/10/1joey6.jpg"
