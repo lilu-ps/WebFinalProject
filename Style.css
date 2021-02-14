@@ -561,7 +561,7 @@ nav select {
 
 
 
-.artist-list {
+.app-section > container > app-items> artist-list {
     display: grid;
     width: 100%;
     grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
@@ -576,27 +576,4 @@ nav select {
 
 ..artist-list box :hover {
     box-shadow: 1px 1px 2px #3bafbe, 0 0 25px #3bafbe, 0 0 5px #3bafbe;
-}
-
-.hmenu {
-    display: grid;
-    grid-auto-columns: auto;
-    background-color: #015491;
-    margin-top: 5px;
-}
-
-.hmenu > a {
-    font-size: 15px;
-    line-height: 100%;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-family: sans-serif "Avenir Light";
-    font-weight: 300;
-    color: #FFFFFF;
-}
-
-.hmenu :hover {
-    box-shadow: 0px 16px 22px 2px rgba(51,51,51,0.2);
-    transform: translateY(-20px);
-    background-color: #73b3e7;
 }

@@ -48,9 +48,6 @@ export default class extends Common {
                 <div class="artist-list" id = "artists-ls">
                 </div>
 
-                <div class="hmenu">
-                  <a href="...">A</a>
-                </div>
     `;
     }
 }
