@@ -83,11 +83,6 @@ export default class extends Common {
 
             <br>
 
-            <div class="slide-show-dots" style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
-            </div>
         </div>
 
     </section>
