@@ -72,6 +72,11 @@
         color: white;
     }
 
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
     .slide-show-dots {
         display: none;
     }
