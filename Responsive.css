@@ -23,20 +23,22 @@
         grid-template-columns: repeat( auto-fit, minmax(320px, 1fr) );
         grid-column-gap: 0px;
     }
-    .artist-list .box{
-        width:100%;
-        margin:auto;
-    }
-    .details{
-        width:100%;
+
+        .artist-list .box {
+            width: 100%;
+            margin: auto;
+        }
+
+    .details {
+        width: 100%;
     }
 
     .image {
         left: 130px;
     }
 
-    .artist-profile{
-        width:100%;
+    .artist-profile {
+        width: 100%;
     }
 
     .artist-tattoos {
@@ -45,13 +47,14 @@
         margin-top: 20px;
         margin-bottom: 20px;
     }
+
     .tattoo-desc {
         width: 202.5px;
         margin-left: 59px;
     }
 
-    .tattoo img{
-       margin-left:59px;
+    .tattoo img {
+        margin-left: 59px;
     }
 
     .menu-buttons {
@@ -69,7 +72,7 @@
         color: white;
     }
 
-    .slide-show-dots{
+    .slide-show-dots {
         display: none;
     }
 
@@ -93,27 +96,30 @@
         align-items: center;
         justify-content: space-around;
     }
+
     .header-right {
         width: 100%;
     }
 
-    .header-left{
-        display:none;
+    .header-left {
+        display: none;
     }
 
-    .header-right-top{
-        display:flex;
-        flex-direction:column;
-    }
-    .logo{
-        display:none;
+    .header-right-top {
+        display: flex;
+        flex-direction: column;
     }
 
-    .header-right-bottom{
-        margin-top:5px;
+    .logo {
+        display: none;
     }
-    a{
-        margin-top:5px;
+
+    .header-right-bottom {
+        margin-top: 5px;
+    }
+
+    a {
+        margin-top: 5px;
     }
 
 
