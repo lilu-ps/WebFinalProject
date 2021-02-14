@@ -9,7 +9,7 @@ import TattooFilterStyle from './TattooFilterStyle.js';
 
 import { u } from './lib.js';
 
-const correctPath = path =>
+const cleanPath = path =>
     new RegExp('^' + path.replace(/\//g, '\\/').replace(/:\w+/g, '(.+)') + '$');
 
 const getParams = match => {
@@ -26,14 +26,14 @@ const getParams = match => {
     );
 };
 
-const addHistory = url => {
+const pushTo = url => {
     history.pushState(null, null, url);
     router();
 };
 
 
 window.viewProfile = url => {
-    addHistory(url);
+    pushTo(url);
 };
 
 
@@ -55,7 +55,7 @@ const router = async () => {
     const potentialMatches = routes.map(route => {
         return {
             route: route,
-            result: location.pathname.match(https://pbs.twimg.com/media/DeoKVXvUwAA4T6L.jpg(route.path))
+            result: location.pathname.match(cleanPath(route.path))
         };
     });
 
@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.body.addEventListener('click', e => {
         if (e.target.matches('[data-link]')) {
             e.preventDefault();
-            addHistory(e.target.href);
+            pushTo(e.target.href);
         }
     });
     router();
