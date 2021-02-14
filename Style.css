@@ -22,6 +22,7 @@ h3 {
 h5 {
     color: #3bafbe;
 }
+
 ::placeholder {
     color: white;
 }
@@ -35,45 +36,45 @@ a:hover {
     /*justify-content: space-between;*/
     /*position: absolute;*/
     /*right: 5%;*/
-    float:right;
+    float: right;
 }
 
 
-.logo{
-    height:120px;
+.logo {
+    height: 120px;
 }
 
 
 
-.site-name{
+.site-name {
     /*height:120px;
     float:left;   
     top:0px;*/
 }
 
-.name{
-    height:40px;
-    margin-right:10px;
+.name {
+    height: 40px;
+    margin-right: 10px;
 }
 
 
 
-.header-right-top{
+.header-right-top {
     /*height:60px;*/
-    display:flex;
+    display: flex;
     justify-content: space-between;
-    width:100%;
+    width: 100%;
 }
 
-.header-right{
-    width:94%;
-    display:flex;
-    flex-direction:column;
-    justify-content:space-between;
+.header-right {
+    width: 94%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.header-left{
-    width:6%;
+.header-left {
+    width: 6%;
 }
 
 .header-items {
@@ -86,7 +87,7 @@ a:hover {
 }
 
 .menu-buttons {
-    width:100%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -175,9 +176,9 @@ footer {
 }
 
     /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-}
+    .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+    }
 
 /* Caption text */
 .text {
@@ -222,9 +223,9 @@ footer {
     animation-duration: 1.5s;
 }
 
-.slide-image{
-    width:100%;
-    height:360px;
+.slide-image {
+    width: 100%;
+    height: 360px;
 }
 
 @-webkit-keyframes fade {
@@ -263,6 +264,7 @@ footer {
     padding-top: 55px;
     padding-bottom: 55px;
 }
+
 .info-section {
     background-color: #252525;
 }
@@ -275,12 +277,12 @@ footer {
     height: 134px;
 }
 
-.info-and-contact-list p {
-    font-size: 12px;
-    line-height: 19px;
-    color: #999999;
-    font-family: "Georgia";
-}
+    .info-and-contact-list p {
+        font-size: 12px;
+        line-height: 19px;
+        color: #999999;
+        font-family: "Georgia";
+    }
 
 .info-item {
     display: relative;
@@ -359,12 +361,12 @@ spa {
     justify-content: space-between;
 }
 
-.search-items button {
-    width: 80px;
-    height: 31px;
-    border-radius: 7px;
-    background-color: #3bafbe;
-}
+    .search-items button {
+        width: 80px;
+        height: 31px;
+        border-radius: 7px;
+        background-color: #3bafbe;
+    }
 
 h6 {
     font-size: 20px;
@@ -379,17 +381,17 @@ h6 {
     color: #3bafbe;
 }
 
-.container{
+.container {
     width: 960px;
 }
 
-.info-section{
+.info-section {
     background-color: #252525;
 }
 
-.info-section container{
-    background-color: #252525;
-}
+    .info-section container {
+        background-color: #252525;
+    }
 
 .copyright-section {
     background-color: #1a1a1a;
@@ -409,7 +411,7 @@ h6 {
     font-family: "Georgia";
 }
 
-.tattoo-info{
+.tattoo-info {
     width: 100%;
 }
 
@@ -432,15 +434,15 @@ h6 {
     border-top: 1px solid #d8d8d8
 }
 
-.intro-items p {
-    width: 298px;
-    height: 79px;
-    font-size: 13px;
-    line-height: 21px;
-    color: #999999;
-    font-family: "Georgia";
-    margin-block-end: 20px;
-}
+    .intro-items p {
+        width: 298px;
+        height: 79px;
+        font-size: 13px;
+        line-height: 21px;
+        color: #999999;
+        font-family: "Georgia";
+        margin-block-end: 20px;
+    }
 
 .intro-item button {
     width: 106px;
@@ -463,14 +465,6 @@ nav select {
     display: none;
 }
 
-.artist-list > box {
-    background: white;
-    width: 300px;
-    height: 300px;
-    overflow: hidden;
-    border-radius: 16px;
-    z-index: -1;
-}
 
 
 .box:hover {
@@ -544,37 +538,53 @@ nav select {
     color: #3bafbe;
 }
 
-.artist-info button {
-    width: 106px;
-    height: 30px;
-    font-size: 13px;
-    line-height: 13px;
-    background-color: white;
-    border: 2px solid #3bafbe;
-    font-family: "Georgia";
-    color: #3bafbe;
-}
+    .artist-info button {
+        width: 106px;
+        height: 30px;
+        font-size: 13px;
+        line-height: 13px;
+        background-color: white;
+        border: 2px solid #3bafbe;
+        font-family: "Georgia";
+        color: #3bafbe;
+    }
 
-.artist-info button:hover {
-    box-shadow: 1px 1px 2px #3bafbe, 0 0 25px #3bafbe, 0 0 5px #3bafbe;
-}
+        .artist-info button:hover {
+            box-shadow: 1px 1px 2px #3bafbe, 0 0 25px #3bafbe, 0 0 5px #3bafbe;
+        }
 
 
 
 .artist-list {
     display: grid;
-    width: 70%;
+    width: 960px;
     margin: auto;
     grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
-    grid-column-gap: 20px;
+    grid-column-gap: 30px;
     grid-row-gap: 40px;
     padding-top: 50px;
     padding-bottom: 50px;
     z-index: -50;
 }
 
+    .artist-list > box {
+        background: white;
+        width: 300px;
+        height: 300px;
+        overflow: hidden;
+        border-radius: 16px;
+        z-index: -1;
+    }
 
+    .artist-list box :hover {
+        box-shadow: 1px 1px 2px #3bafbe, 0 0 25px #3bafbe, 0 0 5px #3bafbe;
+    }
 
-..artist-list box :hover {
-    box-shadow: 1px 1px 2px #3bafbe, 0 0 25px #3bafbe, 0 0 5px #3bafbe;
-}
+    .artist-list box ::before {
+        background: white;
+        width: 300px;
+        height: 300px;
+        overflow: hidden;
+        border-radius: 16px;
+        z-index: -1;
+    }
