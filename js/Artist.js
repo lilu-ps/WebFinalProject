@@ -5,12 +5,6 @@ export default class extends Common {
         super(params);
         this.setTitle('Artists');
     }
-
-    viewProfile(id) {
-        console.log("miiiineeee")
-        console.log(id)
-    }
-
     pageElements() {
         fetch('/WebFinalProject/database/Artists.json')
             .then(response => response.json())

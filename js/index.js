@@ -24,6 +24,13 @@ const pushTo = url => {
     router();
 };
 
+
+const viewProfile = id =>{
+    console.log("miiiineeee")
+    console.log(id)
+}
+
+
 const router = async () => {
     const routes = [
         { path: u('/'), view: Home },
