@@ -18,7 +18,7 @@ export default class extends Common {
                     if (e.id === this.postID) {
                         article.innerHTML += `
                     <div class="my-article">
-	                    <div class="image">
+	                    <div class="image-article">
                             <img src="${e.image}">
                         </div>
 	                    <h1>${e.title}</h1>
