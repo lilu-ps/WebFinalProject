@@ -26,6 +26,15 @@
       "studio": "Old Town Ink",
       "image": "https://www.reviewjournal.com/wp-content/uploads/2019/09/12761154_web1_webdj-tambe-ink-master.jpg",
       "cover": "https://i.ytimg.com/vi/4YPSIfd2qvQ/maxresdefault.jpg"
+    },
+    {
+      "id": "3",
+      "firstName": "Joey",
+      "lastName": "Hamilton",
+      "experience": 13,
+      "studio": "Revolt Tattoos",
+      "image": "https://www.inkedmag.com/.image/t_share/MTU5MDMyNTA5NTYyNDMxMTI1/inkmasterwinner-s3-joey-hamilton.jpg",
+      "cover": "https://www.skillsetmag.com/wp-content/uploads/sites/14/2019/10/1joey6.jpgg"
     }
   
   ]
