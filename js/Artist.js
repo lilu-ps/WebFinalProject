@@ -46,19 +46,12 @@ export default class extends Common {
         //var artists = await this.getArtists()
         return `
 
-    <section class="intro-section">
-        <div class="container">
-            <div class="artists">
                 <div class="artist-list" id ="artists-ls">
 
 
                     
 
                 </div>
-
-            </div>
-        </div>
-    </section>
 
     `;
     }
