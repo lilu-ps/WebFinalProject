@@ -28,7 +28,7 @@ export default class extends Common {
                             <div class="artist-info">
                                 <span itemprop="name" class="artist-name">${e.firstName} ${e.lastName}</span>
                                 <span itemprop="name" class="studio-name">${e.studio}</span>
-                                <button type="button" onclick=viewProfile('/artists/${e.id}')>View Profile</button>
+                                <button type="button" onclick=viewProfile('/WebFinalProject/artists/${e.id}')>View Profile</button>
                             </div>
                         </div>
                     </div>
