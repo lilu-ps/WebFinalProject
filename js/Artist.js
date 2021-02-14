@@ -6,6 +6,11 @@ export default class extends Common {
         this.setTitle('Artists');
     }
 
+    viewProfile(id) {
+        console.log("miiiineeee")
+        console.log(id)
+    }
+
     pageElements() {
         fetch('/WebFinalProject/database/Artists.json')
             .then(response => response.json())
@@ -29,7 +34,7 @@ export default class extends Common {
                             <div class="artist-info">
                                 <span itemprop="name" class="artist-name">${e.firstName} ${e.lastName}</span>
                                 <span itemprop="name" class="studio-name">SOMETHING STUD</span>
-                                <button type="button">View Profile</button>
+                                <button type="button" onclick=viewProfile(${e.id})>View Profile</button>
                             </div>
                         </div>
                     </div>
