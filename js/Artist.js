@@ -1,4 +1,5 @@
 ﻿import Common from './Common.js';
+import { u } from '../lib.js';
 
 export default class extends Common {
     constructor(params) {
@@ -28,6 +29,7 @@ export default class extends Common {
                             <div class="artist-info">
                                 <span itemprop="name" class="artist-name">${e.firstName} ${e.lastName}</span>
                                 <span itemprop="name" class="studio-name">${e.studio}</span>
+                                <a href="${u('/artists/2')}" data-link>#2 - How to build a GH Pages site</a>
                                 <button type="button" onclick=viewProfile('/WebFinalProject/artists/${e.id}')>View Profile</button>
                             </div>
                         </div>

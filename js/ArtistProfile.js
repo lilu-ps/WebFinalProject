@@ -1,65 +1,18 @@
 import Common from './Common.js';
 
+
 export default class extends Common {
     constructor(params) {
         super(params);
-        this.setTitle('Artists');
+        this.postID = params.id;
+        this.setTitle('Viewing Post');
     }
-
-    pageElements() {
-        fetch('/WebFinalProject/database/Artists.json')
-            .then(response => response.json())
-            .then(artstsData => {
-                artstsData = artstsData.Artists
-                console.log(artstsData);
-                var artists = document.getElementById("artists-ls");
-                artstsData.forEach(e => {
-                    console.log(e);
-                    console.log(e.name);
-
-                    artists.innerHTML += `
-                    <div class="box">
-                        <div class="details">
-                            <div class="cover">
-                                <img src="${e.cover}" alt="" />
-                            </div>
-                            <div class="image">
-                                <img src="${e.image}" alt="" />
-                            </div>
-                            <div class="artist-info">
-                                <span itemprop="name" class="artist-name">${e.firstName} ${e.lastName}</span>
-                                <span itemprop="name" class="studio-name">SOMETHING STUD</span>
-                                <button type="button">View Profile</button>
-                            </div>
-                        </div>
-                    </div>
-                 `;
-
-                });
-            })
-    }
-
-
 
     async getHtml() {
-        console.log("ariiiiiiiiiiiiiiiii");
-        var data = [];
-        //var artists = await this.getArtists()
         return `
-
-            <section class="app-section">
-                <div class="container">
-
-                    <div class="artist-profile" id="artists-profile">
-                        <scrip>
-                         </script>
-    
-
-
-                    </div>
-                </div>
-            </section>
-
+        <h1>Post</h1>
+        <p>You are viewing post #${this.postID}. No content can be shown here yet.</p>
     `;
     }
 }
+
