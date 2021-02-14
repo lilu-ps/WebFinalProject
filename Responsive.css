@@ -17,6 +17,10 @@
 
 
 @media all and (max-width: 320px) {
+    .studio-artist-list .box {
+        width: 100%;
+        margin: auto;
+    }
 
     #tatt .tattoo {
         width: 100%;
