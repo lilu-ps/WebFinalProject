@@ -30,6 +30,7 @@ export default class extends Common {
                                 <span itemprop="name" class="artist-name">${e.firstName} ${e.lastName}</span>
                                 <span itemprop="name" class="studio-name">SOMETHING STUD</span>
                                 <button type="button">View Profile</button>
+                                <a href="${u('/Artists/${e.firstName}')}" data-link>View Profile</a>
                             </div>
                         </div>
                     </div>
@@ -46,13 +47,13 @@ export default class extends Common {
         //var artists = await this.getArtists()
         return `
 
-
-                    <div class="artist-list" id="artists-ls">
-
-
-
-
-                    </div>
+                <div class="hmenu">
+ <ul>
+  <li><a href="...">A</a></li>
+  <li><a href="...">B</a></li>
+  <li><a href="...">C</a></li>
+ </ul>
+</div>
  
 
     `;
