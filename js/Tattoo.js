@@ -5,6 +5,7 @@ export default class extends Common {
     constructor(params) {
         super(params);
         this.postID = params.id;
+
         this.setTitle('Viewing Artist');
     }
 
@@ -31,6 +32,22 @@ export default class extends Common {
                 });
             })
 
+
+        fetch('/WebFinalProject/database/TattooStyles.json')
+            .then(response => response.json())
+            .then(tattooData => {
+                tattooData = tattooData.TattooStyles
+                console.log(tattooData);
+                var tattoos = document.getElementById("styles");
+                tattooData.forEach(e => {
+
+                    tattoos.innerHTML += `
+                        <a href="${u('/tattoos/' + e.id)}" data-link class="link-button">${e.name}</a>
+                        `;
+
+                });
+            })
+
     }
 
 
@@ -38,6 +55,13 @@ export default class extends Common {
     async getHtml() {
         return `
         <div class="artist-profile">
+            <div class="filters" id="filter">
+                     <div class="dropdown" id="styles-dropdown">
+                        <button class="dropbtn">Choose Tab</button>
+                        <div class="dropdown-content" id="styles">
+                        </div>
+                    </div>
+            </div>
             <div class="artist-tattoos" id="tatt"></div>
         </div>
     `;
