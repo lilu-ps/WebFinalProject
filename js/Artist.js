@@ -1,5 +1,5 @@
 ﻿import Common from './Common.js';
-import { u } from '../lib.js';
+
 export default class extends Common {
     constructor(params) {
         super(params);
@@ -30,7 +30,6 @@ export default class extends Common {
                                 <span itemprop="name" class="artist-name">${e.firstName} ${e.lastName}</span>
                                 <span itemprop="name" class="studio-name">SOMETHING STUD</span>
                                 <button type="button">View Profile</button>
-                                <a href="${u('/Artists/')}" data-link>View Profile</a>
                             </div>
                         </div>
                     </div>
@@ -47,8 +46,7 @@ export default class extends Common {
         //var artists = await this.getArtists()
         return `
 
-                <div class="hmenu" id ="artists-ls">
-
+                <div class="artist-list" id = "artists-ls">
                 </div>
  
 
